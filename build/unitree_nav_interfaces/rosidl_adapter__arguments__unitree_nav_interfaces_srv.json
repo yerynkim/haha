@@ -1,0 +1,8 @@
+{
+  "package_name": "unitree_nav_interfaces",
+  "non_idl_tuples": [
+    "/home/yeryn/practice/unitree_nav/unitree_nav_interfaces:srv/SetBodyRPY.srv",
+    "/home/yeryn/practice/unitree_nav/unitree_nav_interfaces:srv/NavToPose.srv",
+    "/home/yeryn/practice/unitree_nav/unitree_nav_interfaces:srv/SetGait.srv"
+  ]
+}

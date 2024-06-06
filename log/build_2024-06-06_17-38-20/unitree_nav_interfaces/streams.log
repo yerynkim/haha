@@ -1,0 +1,294 @@
+[0.008s] Invoking command in '/home/yeryn/practice/build/unitree_nav_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yeryn/practice/unitree_nav/unitree_nav_interfaces -DCMAKE_INSTALL_PREFIX=/home/yeryn/practice/install/unitree_nav_interfaces
+[0.080s] -- The C compiler identification is GNU 11.4.0
+[0.140s] -- The CXX compiler identification is GNU 11.4.0
+[0.145s] -- Detecting C compiler ABI info
+[0.184s] -- Detecting C compiler ABI info - done
+[0.188s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.188s] -- Detecting C compile features
+[0.189s] -- Detecting C compile features - done
+[0.190s] -- Detecting CXX compiler ABI info
+[0.228s] -- Detecting CXX compiler ABI info - done
+[0.232s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.232s] -- Detecting CXX compile features
+[0.232s] -- Detecting CXX compile features - done
+[0.237s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.321s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.368s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.388s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.392s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.396s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.403s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.413s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.483s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.625s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.812s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.885s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.895s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.896s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.908s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.908s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.908s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.908s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[0.917s] -- Found PythonExtra: .so  
+[0.944s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.952s] -- Added test 'lint_cmake' to check CMake code style
+[0.953s] -- Added test 'xmllint' to check XML markup files
+[0.954s] -- Configuring done
+[0.973s] -- Generating done
+[0.975s] -- Build files have been written to: /home/yeryn/practice/build/unitree_nav_interfaces
+[0.979s] Invoked command in '/home/yeryn/practice/build/unitree_nav_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yeryn/practice/unitree_nav/unitree_nav_interfaces -DCMAKE_INSTALL_PREFIX=/home/yeryn/practice/install/unitree_nav_interfaces
+[0.980s] Invoking command in '/home/yeryn/practice/build/unitree_nav_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yeryn/practice/build/unitree_nav_interfaces -- -j4 -l4
+[1.000s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.005s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.008s] [  4%] Built target ament_cmake_python_copy_unitree_nav_interfaces
+[1.116s] running egg_info
+[1.116s] creating unitree_nav_interfaces.egg-info
+[1.116s] writing unitree_nav_interfaces.egg-info/PKG-INFO
+[1.116s] writing dependency_links to unitree_nav_interfaces.egg-info/dependency_links.txt
+[1.116s] writing top-level names to unitree_nav_interfaces.egg-info/top_level.txt
+[1.116s] writing manifest file 'unitree_nav_interfaces.egg-info/SOURCES.txt'
+[1.117s] reading manifest file 'unitree_nav_interfaces.egg-info/SOURCES.txt'
+[1.117s] writing manifest file 'unitree_nav_interfaces.egg-info/SOURCES.txt'
+[1.131s] [  4%] Built target ament_cmake_python_build_unitree_nav_interfaces_egg
+[1.255s] [  4%] Built target unitree_nav_interfaces_srv__cpp
+[1.260s] [  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.260s] [  8%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.263s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.268s] [ 12%] [32mBuilding C object CMakeFiles/unitree_nav_interfaces_srv__rosidl_generator_c.dir/rosidl_generator_c/unitree_nav_interfaces/srv/detail/set_body_rpy__functions.c.o[0m
+[1.305s] [ 14%] [32mBuilding C object CMakeFiles/unitree_nav_interfaces_srv__rosidl_generator_c.dir/rosidl_generator_c/unitree_nav_interfaces/srv/detail/nav_to_pose__functions.c.o[0m
+[1.336s] [ 17%] [32mBuilding C object CMakeFiles/unitree_nav_interfaces_srv__rosidl_generator_c.dir/rosidl_generator_c/unitree_nav_interfaces/srv/detail/set_gait__functions.c.o[0m
+[1.366s] [ 19%] [32m[1mLinking C shared library libunitree_nav_interfaces__rosidl_generator_c.so[0m
+[1.384s] [ 19%] Built target unitree_nav_interfaces_srv__rosidl_generator_c
+[1.388s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.462s] [ 23%] [32mBuilding CXX object CMakeFiles/unitree_nav_interfaces_srv__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_nav_interfaces/srv/set_body_rpy__type_support.cpp.o[0m
+[1.494s] [ 25%] [32mBuilding CXX object CMakeFiles/unitree_nav_interfaces_srv__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_nav_interfaces/srv/detail/set_body_rpy__type_support.cpp.o[0m
+[1.516s] [ 27%] [32mBuilding CXX object CMakeFiles/unitree_nav_interfaces_srv__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_nav_interfaces/srv/detail/dds_fastrtps/set_body_rpy__type_support.cpp.o[0m
+[1.610s] [ 29%] [32mBuilding CXX object CMakeFiles/unitree_nav_interfaces_srv__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_nav_interfaces/srv/nav_to_pose__type_support.cpp.o[0m
+[1.634s] [ 31%] [32mBuilding CXX object CMakeFiles/unitree_nav_interfaces_srv__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_nav_interfaces/srv/detail/set_body_rpy__type_support_c.cpp.o[0m
+[1.687s] [ 34%] [32mBuilding CXX object CMakeFiles/unitree_nav_interfaces_srv__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_nav_interfaces/srv/detail/nav_to_pose__type_support.cpp.o[0m
+[1.743s] [ 36%] [32mBuilding CXX object CMakeFiles/unitree_nav_interfaces_srv__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_nav_interfaces/srv/detail/dds_fastrtps/nav_to_pose__type_support.cpp.o[0m
+[1.743s] [ 38%] [32mBuilding CXX object CMakeFiles/unitree_nav_interfaces_srv__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_nav_interfaces/srv/set_gait__type_support.cpp.o[0m
+[1.798s] [ 40%] [32mBuilding CXX object CMakeFiles/unitree_nav_interfaces_srv__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_nav_interfaces/srv/detail/nav_to_pose__type_support_c.cpp.o[0m
+[1.857s] [ 42%] [32mBuilding CXX object CMakeFiles/unitree_nav_interfaces_srv__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_nav_interfaces/srv/detail/set_gait__type_support.cpp.o[0m
+[1.869s] [ 44%] [32m[1mLinking CXX shared library libunitree_nav_interfaces__rosidl_typesupport_cpp.so[0m
+[1.889s] [ 44%] Built target unitree_nav_interfaces_srv__rosidl_typesupport_cpp
+[1.894s] [ 46%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.929s] [ 48%] [32mBuilding CXX object CMakeFiles/unitree_nav_interfaces_srv__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_nav_interfaces/srv/detail/dds_fastrtps/set_gait__type_support.cpp.o[0m
+[1.957s] [ 51%] [32mBuilding CXX object CMakeFiles/unitree_nav_interfaces_srv__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_nav_interfaces/srv/detail/set_gait__type_support_c.cpp.o[0m
+[2.025s] [ 53%] [32m[1mLinking CXX shared library libunitree_nav_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.048s] [ 53%] Built target unitree_nav_interfaces_srv__rosidl_typesupport_introspection_cpp
+[2.053s] [ 55%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.135s] [ 57%] [32mBuilding C object CMakeFiles/unitree_nav_interfaces_srv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_nav_interfaces/srv/detail/set_body_rpy__type_support.c.o[0m
+[2.232s] [ 59%] [32mBuilding CXX object CMakeFiles/unitree_nav_interfaces_srv__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_nav_interfaces/srv/set_body_rpy__type_support.cpp.o[0m
+[2.289s] [ 61%] [32m[1mLinking CXX shared library libunitree_nav_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.291s] [ 63%] [32mBuilding C object CMakeFiles/unitree_nav_interfaces_srv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_nav_interfaces/srv/detail/nav_to_pose__type_support.c.o[0m
+[2.292s] [ 65%] [32mBuilding CXX object CMakeFiles/unitree_nav_interfaces_srv__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_nav_interfaces/srv/nav_to_pose__type_support.cpp.o[0m
+[2.294s] [ 68%] [32m[1mLinking CXX shared library libunitree_nav_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.313s] [ 70%] [32mBuilding CXX object CMakeFiles/unitree_nav_interfaces_srv__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_nav_interfaces/srv/set_gait__type_support.cpp.o[0m
+[2.314s] [ 72%] [32mBuilding C object CMakeFiles/unitree_nav_interfaces_srv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_nav_interfaces/srv/detail/set_gait__type_support.c.o[0m
+[2.335s] [ 74%] [32m[1mLinking C shared library libunitree_nav_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.343s] [ 74%] Built target unitree_nav_interfaces_srv__rosidl_typesupport_fastrtps_cpp
+[2.345s] [ 74%] Built target unitree_nav_interfaces_srv__rosidl_typesupport_fastrtps_c
+[2.347s] [ 76%] [32m[1mLinking CXX shared library libunitree_nav_interfaces__rosidl_typesupport_c.so[0m
+[2.354s] [ 76%] Built target unitree_nav_interfaces_srv__rosidl_typesupport_introspection_c
+[2.365s] [ 76%] Built target unitree_nav_interfaces_srv__rosidl_typesupport_c
+[2.373s] [ 76%] Built target unitree_nav_interfaces_srv
+[2.381s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.753s] [ 78%] Built target unitree_nav_interfaces_srv__py
+[2.761s] [ 80%] [32mBuilding C object CMakeFiles/unitree_nav_interfaces_srv__rosidl_generator_py.dir/rosidl_generator_py/unitree_nav_interfaces/srv/_set_body_rpy_s.c.o[0m
+[2.761s] [ 82%] [32mBuilding C object CMakeFiles/unitree_nav_interfaces_srv__rosidl_generator_py.dir/rosidl_generator_py/unitree_nav_interfaces/srv/_nav_to_pose_s.c.o[0m
+[2.761s] [ 85%] [32mBuilding C object CMakeFiles/unitree_nav_interfaces_srv__rosidl_generator_py.dir/rosidl_generator_py/unitree_nav_interfaces/srv/_set_gait_s.c.o[0m
+[2.815s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/unitree_nav_interfaces/libunitree_nav_interfaces_srv__rosidl_generator_py.so[0m
+[2.833s] [ 87%] Built target unitree_nav_interfaces_srv__rosidl_generator_py
+[2.844s] [ 89%] [32mBuilding C object CMakeFiles/unitree_nav_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/unitree_nav_interfaces/_unitree_nav_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.844s] [ 91%] [32mBuilding C object CMakeFiles/unitree_nav_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/unitree_nav_interfaces/_unitree_nav_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[2.844s] [ 93%] [32mBuilding C object CMakeFiles/unitree_nav_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/unitree_nav_interfaces/_unitree_nav_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.900s] [100%] [32m[1mLinking C shared library rosidl_generator_py/unitree_nav_interfaces/unitree_nav_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[2.900s] [100%] [32m[1mLinking C shared library rosidl_generator_py/unitree_nav_interfaces/unitree_nav_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[2.900s] [100%] [32m[1mLinking C shared library rosidl_generator_py/unitree_nav_interfaces/unitree_nav_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[2.919s] [100%] Built target unitree_nav_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.919s] [100%] Built target unitree_nav_interfaces__rosidl_typesupport_c__pyext
+[2.919s] [100%] Built target unitree_nav_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.924s] Invoked command in '/home/yeryn/practice/build/unitree_nav_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yeryn/practice/build/unitree_nav_interfaces -- -j4 -l4
+[2.965s] Invoking command in '/home/yeryn/practice/build/unitree_nav_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yeryn/practice/build/unitree_nav_interfaces
+[2.968s] -- Install configuration: ""
+[2.968s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/share/ament_index/resource_index/rosidl_interfaces/unitree_nav_interfaces
+[2.968s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces
+[2.969s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv
+[2.969s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/set_gait.h
+[2.969s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/nav_to_pose.h
+[2.969s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/set_body_rpy.h
+[2.969s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail
+[2.969s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_gait__functions.h
+[2.969s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__type_support.h
+[2.969s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_gait__functions.c
+[2.969s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__struct.h
+[2.969s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_gait__struct.h
+[2.969s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/nav_to_pose__type_support.h
+[2.969s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/nav_to_pose__functions.h
+[2.969s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_gait__type_support.h
+[2.969s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__functions.c
+[2.969s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/nav_to_pose__functions.c
+[2.970s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__functions.h
+[2.970s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/nav_to_pose__struct.h
+[2.970s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/msg
+[2.970s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.970s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/share/unitree_nav_interfaces/environment/library_path.sh
+[2.970s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/share/unitree_nav_interfaces/environment/library_path.dsv
+[2.970s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_generator_c.so
+[2.970s] -- Set runtime path of "/home/yeryn/practice/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_generator_c.so" to ""
+[2.970s] -- Up-to-date: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces
+[2.970s] -- Up-to-date: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv
+[2.970s] -- Up-to-date: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail
+[2.970s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_gait__rosidl_typesupport_fastrtps_c.h
+[2.970s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__rosidl_typesupport_fastrtps_c.h
+[2.970s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/nav_to_pose__rosidl_typesupport_fastrtps_c.h
+[2.970s] -- Up-to-date: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/msg
+[2.970s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.970s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.970s] -- Set runtime path of "/home/yeryn/practice/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[2.971s] -- Up-to-date: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces
+[2.971s] -- Up-to-date: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv
+[2.971s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/nav_to_pose.hpp
+[2.971s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/set_gait.hpp
+[2.971s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/set_body_rpy.hpp
+[2.971s] -- Up-to-date: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail
+[2.971s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_gait__traits.hpp
+[2.971s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__builder.hpp
+[2.971s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__traits.hpp
+[2.971s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/nav_to_pose__builder.hpp
+[2.971s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_gait__builder.hpp
+[2.971s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_gait__struct.hpp
+[2.971s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__struct.hpp
+[2.971s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/nav_to_pose__struct.hpp
+[2.971s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/nav_to_pose__traits.hpp
+[2.973s] -- Up-to-date: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces
+[2.973s] -- Up-to-date: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv
+[2.973s] -- Up-to-date: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail
+[2.973s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/nav_to_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[2.973s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__rosidl_typesupport_fastrtps_cpp.hpp
+[2.973s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/dds_fastrtps
+[2.973s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_gait__rosidl_typesupport_fastrtps_cpp.hpp
+[2.973s] -- Up-to-date: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/msg
+[2.973s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.973s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.973s] -- Set runtime path of "/home/yeryn/practice/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.973s] -- Up-to-date: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces
+[2.973s] -- Up-to-date: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv
+[2.973s] -- Up-to-date: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail
+[2.974s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/nav_to_pose__type_support.c
+[2.974s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/nav_to_pose__rosidl_typesupport_introspection_c.h
+[2.974s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__rosidl_typesupport_introspection_c.h
+[2.974s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_gait__rosidl_typesupport_introspection_c.h
+[2.974s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_gait__type_support.c
+[2.974s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__type_support.c
+[2.974s] -- Up-to-date: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/msg
+[2.974s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.974s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_introspection_c.so
+[2.974s] -- Set runtime path of "/home/yeryn/practice/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[2.974s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_c.so
+[2.974s] -- Set runtime path of "/home/yeryn/practice/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_c.so" to ""
+[2.974s] -- Up-to-date: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces
+[2.974s] -- Up-to-date: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv
+[2.974s] -- Up-to-date: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail
+[2.974s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_gait__type_support.cpp
+[2.974s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__type_support.cpp
+[2.974s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_gait__rosidl_typesupport_introspection_cpp.hpp
+[2.975s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__rosidl_typesupport_introspection_cpp.hpp
+[2.975s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/nav_to_pose__rosidl_typesupport_introspection_cpp.hpp
+[2.975s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/nav_to_pose__type_support.cpp
+[2.975s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.975s] -- Set runtime path of "/home/yeryn/practice/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[2.975s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_cpp.so
+[2.975s] -- Set runtime path of "/home/yeryn/practice/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_cpp.so" to ""
+[2.975s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/share/unitree_nav_interfaces/environment/pythonpath.sh
+[2.975s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/share/unitree_nav_interfaces/environment/pythonpath.dsv
+[2.975s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces-0.0.0-py3.10.egg-info
+[2.975s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[2.975s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.975s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.975s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[2.975s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces
+[2.975s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/unitree_nav_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[2.975s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/_unitree_nav_interfaces_s.ep.rosidl_typesupport_c.c
+[2.976s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/_unitree_nav_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.976s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/srv
+[2.976s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/srv/_set_body_rpy_s.c
+[2.976s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/srv/_set_gait.py
+[2.976s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/srv/_nav_to_pose.py
+[2.976s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/srv/_set_gait_s.c
+[2.976s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/srv/__init__.py
+[2.976s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/srv/_nav_to_pose_s.c
+[2.976s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/srv/_set_body_rpy.py
+[2.976s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/unitree_nav_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[2.976s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/__init__.py
+[2.976s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/_unitree_nav_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.976s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/unitree_nav_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[2.976s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/libunitree_nav_interfaces_srv__rosidl_generator_py.so
+[2.993s] Listing '/home/yeryn/practice/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces'...
+[2.993s] Compiling '/home/yeryn/practice/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/__init__.py'...
+[2.993s] Listing '/home/yeryn/practice/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/srv'...
+[2.993s] Compiling '/home/yeryn/practice/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/srv/__init__.py'...
+[2.993s] Compiling '/home/yeryn/practice/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/srv/_nav_to_pose.py'...
+[2.993s] Compiling '/home/yeryn/practice/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/srv/_set_body_rpy.py'...
+[2.993s] Compiling '/home/yeryn/practice/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/srv/_set_gait.py'...
+[2.996s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/unitree_nav_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[2.996s] -- Set runtime path of "/home/yeryn/practice/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/unitree_nav_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[2.996s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/unitree_nav_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[2.996s] -- Set runtime path of "/home/yeryn/practice/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/unitree_nav_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[2.996s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/unitree_nav_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[2.996s] -- Set runtime path of "/home/yeryn/practice/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/unitree_nav_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[2.996s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces_srv__rosidl_generator_py.so
+[2.996s] -- Set runtime path of "/home/yeryn/practice/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces_srv__rosidl_generator_py.so" to ""
+[2.996s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/share/unitree_nav_interfaces/srv/SetBodyRPY.idl
+[2.997s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/share/unitree_nav_interfaces/srv/NavToPose.idl
+[2.997s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/share/unitree_nav_interfaces/srv/SetGait.idl
+[2.997s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/share/unitree_nav_interfaces/srv/SetBodyRPY.srv
+[2.997s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/share/unitree_nav_interfaces/srv/SetBodyRPY_Request.msg
+[2.997s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/share/unitree_nav_interfaces/srv/SetBodyRPY_Response.msg
+[2.997s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/share/unitree_nav_interfaces/srv/NavToPose.srv
+[2.997s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/share/unitree_nav_interfaces/srv/NavToPose_Request.msg
+[2.997s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/share/unitree_nav_interfaces/srv/NavToPose_Response.msg
+[2.997s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/share/unitree_nav_interfaces/srv/SetGait.srv
+[2.997s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/share/unitree_nav_interfaces/srv/SetGait_Request.msg
+[2.997s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/share/unitree_nav_interfaces/srv/SetGait_Response.msg
+[2.997s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/share/ament_index/resource_index/package_run_dependencies/unitree_nav_interfaces
+[2.997s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/share/ament_index/resource_index/parent_prefix_path/unitree_nav_interfaces
+[2.997s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/share/unitree_nav_interfaces/environment/ament_prefix_path.sh
+[2.997s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/share/unitree_nav_interfaces/environment/ament_prefix_path.dsv
+[2.997s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/share/unitree_nav_interfaces/environment/path.sh
+[2.998s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/share/unitree_nav_interfaces/environment/path.dsv
+[2.998s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/share/unitree_nav_interfaces/local_setup.bash
+[2.998s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/share/unitree_nav_interfaces/local_setup.sh
+[2.998s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/share/unitree_nav_interfaces/local_setup.zsh
+[2.998s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/share/unitree_nav_interfaces/local_setup.dsv
+[2.998s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/share/unitree_nav_interfaces/package.dsv
+[2.998s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/share/ament_index/resource_index/packages/unitree_nav_interfaces
+[2.998s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/export_unitree_nav_interfaces_srv__rosidl_generator_cExport.cmake
+[2.998s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/export_unitree_nav_interfaces_srv__rosidl_generator_cExport-noconfig.cmake
+[2.998s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/export_unitree_nav_interfaces_srv__rosidl_typesupport_fastrtps_cExport.cmake
+[2.998s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/export_unitree_nav_interfaces_srv__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.998s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/export_unitree_nav_interfaces_srv__rosidl_generator_cppExport.cmake
+[2.998s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/export_unitree_nav_interfaces_srv__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.998s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/export_unitree_nav_interfaces_srv__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.998s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/unitree_nav_interfaces_srv__rosidl_typesupport_introspection_cExport.cmake
+[2.998s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/unitree_nav_interfaces_srv__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.998s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/unitree_nav_interfaces_srv__rosidl_typesupport_cExport.cmake
+[2.999s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/unitree_nav_interfaces_srv__rosidl_typesupport_cExport-noconfig.cmake
+[2.999s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/unitree_nav_interfaces_srv__rosidl_typesupport_introspection_cppExport.cmake
+[2.999s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/unitree_nav_interfaces_srv__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.999s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/unitree_nav_interfaces_srv__rosidl_typesupport_cppExport.cmake
+[2.999s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/unitree_nav_interfaces_srv__rosidl_typesupport_cppExport-noconfig.cmake
+[2.999s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/export_unitree_nav_interfaces_srv__rosidl_generator_pyExport.cmake
+[2.999s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/export_unitree_nav_interfaces_srv__rosidl_generator_pyExport-noconfig.cmake
+[2.999s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.999s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.999s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.999s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.999s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.999s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.999s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.999s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/unitree_nav_interfacesConfig.cmake
+[3.000s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/unitree_nav_interfacesConfig-version.cmake
+[3.000s] -- Installing: /home/yeryn/practice/install/unitree_nav_interfaces/share/unitree_nav_interfaces/package.xml
+[3.001s] Invoked command in '/home/yeryn/practice/build/unitree_nav_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yeryn/practice/build/unitree_nav_interfaces
